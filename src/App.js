@@ -5,7 +5,6 @@ import Main from "./AppPage/Main";
 function App() {
   return (
     <>
-      {/* <h1>리액트</h1> */}
       <Main />
     </>
   );

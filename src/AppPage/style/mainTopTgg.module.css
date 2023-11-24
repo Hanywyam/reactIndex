@@ -8,3 +8,8 @@
   z-index: 11;
   transition: 0.5s;
 }
+.show {
+  transition: 0.5s;
+  opacity: 1;
+  visibility: visible;
+}
