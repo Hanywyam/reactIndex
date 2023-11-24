@@ -1,7 +1,9 @@
 /* main.module.css */
 /* font-family: 'Heebo', sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500;700&display=swap");
-
+html {
+  scroll-behavior: smooth;
+}
 body,
 a,
 ul,

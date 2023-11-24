@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaBeer } from "react-icons/fa";
 import { IoArrowUpCircle } from "react-icons/io5";
 import topTgg from "./style/mainTopTgg.module.css";
@@ -13,5 +13,4 @@ const MainTop = () => {
     </div>
   );
 };
-
 export default MainTop;

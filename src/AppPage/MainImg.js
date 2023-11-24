@@ -28,7 +28,7 @@ const MainImg = () => {
   return (
     <>
       <div className={MainImgStyle.imgBox}>
-        <img ref={img1Ref} src={"images/SplashColor.png"} alt="물감튀어" />
+        <img ref={img1Ref} src={"/images/SplashColor.png"} alt="물감튀어" />
         <img ref={img2Ref} src={"images/CartoonMac.png"} alt="컴퓨터타닥" />
       </div>
       <p className={MainImgStyle.txtBox}>

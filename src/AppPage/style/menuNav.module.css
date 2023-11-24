@@ -13,6 +13,7 @@ a {
 a span {
   width: 100%;
   height: 7px;
+  display: block;
   background-color: #000;
   border-radius: 5px;
   z-index: 111;
@@ -24,7 +25,7 @@ a span:nth-child(1) {
   right: 0;
 }
 a span:nth-child(2) {
-  width: 70%;
+  width: 50%;
   position: absolute;
   top: 50%;
   right: 0;
@@ -39,7 +40,7 @@ a span:nth-child(3) {
 ul {
   width: 60vw;
   height: 80vh;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 1);
   border-radius: 50px;
   position: absolute;
   top: 20px;
